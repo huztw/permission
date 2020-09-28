@@ -1,0 +1,5 @@
+<?php
+
+Admin::routes();
+
+Route::get('/', 'HomeController@index')->name('admin.home');
