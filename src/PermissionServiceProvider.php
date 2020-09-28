@@ -61,7 +61,7 @@ class PermissionServiceProvider extends ServiceProvider
 
         // Publishing the migrations.
         $this->publishes([
-            __DIR__ . '/../resources/migrations' => database_path('migrations'),
+            __DIR__ . '/../database/migrations' => database_path('migrations'),
         ], 'admin-migrations');
 
         // Publishing the translation files.
